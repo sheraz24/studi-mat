@@ -20,16 +20,16 @@ lang['de']['switchLanguage'] = "Changing the language will result in loosing all
 lang['de']['logoClick'] = "Wenn Sie die Seite neu laden verlieren Sie alle Angaben, die sie bisher gemacht haben\nReloading the page will cause loss of all answers given. Proceed?"
 
 // first page
-lang['de']['header'] = "Hochschulwahlen 2015/2016";
+lang['de']['header'] = "Bundeswahl 2017";
 lang['de']['js'] = '<strong>Ohne Java-Script geht hier leider nichts. Dafür berechnen wir auch alles nur auf deinem Gerät und senden deine Meinungen an keinen Server.<br />Deal?</strong>';
 
 lang['de']['einleitung'] =
  '<p><strong>Deine Antworten werden nur auf deinem Gerät (Computer, Handy, etc.) ausgewertet und an keinen Server gesendet.</strong> Das heißt aber auch, dass deine Antworten verloren gehen, sobald du diese Seite neu lädst oder verlässt.</p>'+
- '<p>Bei den Hochschulwahlen 2015 werden nicht nur die Fachschaftsräte und der Fachbereichsrat, sondern auch die studentischen Vertreter*innen für das Studierendenparlament und die Universitätsversammlung gewählt.</p>'+
- '<p><strong>15. Juni - 18. Juni 2015 (jeweils von 10:30-14:30 Uhr)</strong><br />Mensa Stadtmitte oder Hörsaal-Medienzentrum Lichtwiese</p>'+
- '<p>Dies ist keine Wahlempfehlung, sondern nur ein Informationsangebot über die aktuellen Positionen in der Hochschulpolitik an der TU Darmstadt.</p>';
+ '<p>Bei den Bundeswahl 2017 ...</p>'+
+ '<p><strong>24. September 2017</strong><br />Info zum Wahlprozess, Info zum Briefwahl</p>'+
+ '<p>Dies ist keine Wahlempfehlung, sondern nur ein Informationsangebot über aktuelle Positionen.</p>';
 
-lang['de']['losgehts'] = "los geht's";
+lang['de']['losgehts'] = "los geht's!";
 
 // second page
 lang['de']['weighting'] = 'Was ist dir besonders wichtig?';

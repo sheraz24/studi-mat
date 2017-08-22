@@ -95,7 +95,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 140%;
-	border-top: 10px solid #f2951f
+	border-top: 10px solid #204295
 }
 ol, ul {
 	list-style: none;
@@ -129,8 +129,8 @@ p, table, ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Roboto Slab;
-	font-weight: 500;
+	font-family: 'Lato' sans-serif;
+	/*font-weight: 500;*/
 }
 h1 {
 	font-size: 17pt;
@@ -143,7 +143,7 @@ h2 {
 }
 h3 {
 	margin: 20px 0 10px 0;
-	font-weight: 700;
+	/*font-weight: 700;*/
 }
 
 
@@ -155,18 +155,18 @@ ul li {
 }
 
 strong, b {
-	font-weight: 700
+	font-weight: normal;
 }
 
 
 
 body {
-	font-family: Roboto, Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 14px;
 	line-height: 140%;
 	background-color:#fff;
 	color:#000000;
-	font-weight: 400;
+	/*font-weight: 400;*/
 }
 
 
@@ -218,8 +218,10 @@ label, checkbox {
 #logo {
 	background: url('../img/studi-mat-logo.png') center center;
 	width: 160px;
-	height: 84px;
+	height: 160px;
 	display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #language{
