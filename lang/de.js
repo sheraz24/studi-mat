@@ -8,9 +8,9 @@ var lang = lang || {};
 lang['de'] = {};
 
 lang['de']['of']    = "von";
-lang['de']['yes']   = "Ja";
-lang['de']['no']    = "Nein";
-lang['de']['maybe'] = "Enthaltung";
+lang['de']['yes']   = "Stimme zu";
+lang['de']['no']    = "Stimme nicht zu";
+lang['de']['maybe'] = "Neutral";
 lang['de']['skip']  = "Überspringen";
 lang['de']['back']  = "Zurück";
 
