@@ -80,7 +80,7 @@ var helper = function(){
   }
 
   /* updateLanguage updates the language according to the "data-studimat-lang"
-   * tags of the HTML elements with the given language array */
+   * tags of the HTML elements with the given language array*/
   self.updateLanguage = function(language_array) {
     var langElements = document.querySelectorAll('[data-studimat-lang]');
     if (langElements === null) return;
