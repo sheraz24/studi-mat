@@ -22,14 +22,13 @@ var studimat = function() {
   self.currentContainer = 0;
   self.currentQuestion = 0;
   self.wahlomat_started = false;
- self.wahlomat_language = "";
+  self.wahlomat_language = "";
   self.data = null; // content of data/*.json
   self.votes = []; // e.g. ["+", "-", "0", "skip", ...]
   self.weights = []; // e.g. [1, 1, 2, 1, ...]
   self.scores = {}; // e.g. {party1: 13, party2: 11}
-  self.maxScore = 0; // used to calculate percentual values; increased by 2 for
-                     // each question, increased by 4 for each weighted question
-
+  self.maxScore = 0; // used to calculate percentual values;
+  //increased by 2 for each question, increased by 4 for each weighted question
   var wahlomat_accepted_languages = ["de", "en"];
   var OPINION_MAP = {
     "-": -1,
@@ -43,9 +42,7 @@ var studimat = function() {
     'skip': 'w_skip'
   };
 
-  /*
-    get the party with the given short name `shortName
-  */
+// get the party with the given short name `shortName
   function getPartyByShortname(shortName) {
     for (var i = 0; i < self.data.parties.length; i++) {
       if(self.data.parties[i].shortName == shortName) {
@@ -54,13 +51,9 @@ var studimat = function() {
     }
   }
 
-
-  /*
-   * show the question with id `id`
-  */
+//show the question with id `id`
   function showQuestion(id){
     self.currentQuestion = id;
-
     // update the "jumpto" dots
     $$('#jumpto a').each(function(i, elem) {
       if (i == id) {
@@ -70,17 +63,14 @@ var studimat = function() {
         removeClass(elem, 'active');
       }
     });
-
     // update question box
     if(id < self.data.questions.length){
       $('.question .title').innerHTML = self.data.questions[id].title;
       $('.question .description').innerHTML = self.data.questions[id].description;
       $('.question .question-number').innerHTML = id+1;
       $('.question .question-count').innerHTML = self.data.questions.length;
-
       // blur focus:
       $("a.vote").blur();
-
     } else {
       showContainer(3); // jumps to the next container
     }
@@ -334,16 +324,13 @@ var studimat = function() {
 
   function fetchQuestions(lang, callback) {
     var httpRequest = new XMLHttpRequest();
-
     if (!httpRequest) {
      alert('Giving up :( Cannot create an XMLHTTP instance');
      return false;
     }
-
     httpRequest.onreadystatechange = function() {
       if (httpRequest.readyState === XMLHttpRequest.DONE) {
         if (httpRequest.status === 200) {
-
           // TODO: error handling
           var data = JSON.parse(httpRequest.responseText);
           callback(data);
@@ -352,7 +339,6 @@ var studimat = function() {
         }
       }
     };
-
     // TODO: this should be configurable
     httpRequest.open('GET', "data/demo_"+self.wahlomat_language+".json");
     httpRequest.send();
@@ -379,7 +365,7 @@ var studimat = function() {
       span.className = 'sr-hidden';
       span.innerText = parseInt(i) + 1;
       a.appendChild(span);
-      a.addEventListener('click', showQuestionClosure(i));
+    //  a.addEventListener('click', showQuestionClosure(i));
       $('#jumpto').appendChild(a);
     }
   }
@@ -461,13 +447,13 @@ var studimat = function() {
     };
 
     // social media
-    var a = document.createElement('a');
+  /*  var a = document.createElement('a');
     a.href = './';
     var own_url = a.href;
     var FACEBOOK_BASE_URL = 'https://www.facebook.com/sharer/sharer.php?u=';
-    var TWITTER_BASE_URL = 'https://twitter.com/intent/tweet?text=Studi-Mat%20-%20AStA%20der%20TU%20Darmstadt&url=';
+    var TWITTER_BASE_URL = 'https://twitter.com/scienceomat';
     // TODO: Tweet-Text ändern
     $('.social-media a.facebook').href = FACEBOOK_BASE_URL + encodeURIComponent(own_url);
-    $('.social-media a.twitter').href = TWITTER_BASE_URL + encodeURIComponent(own_url);
+    $('.social-media a.twitter').href = TWITTER_BASE_URL + encodeURIComponent(own_url);*/
   };
 }();

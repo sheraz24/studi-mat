@@ -324,13 +324,17 @@ a.vote:hover.vote-ueber:active, a.vote-ueber:active {
 }
 
 #jumpto a {
-	cursor: pointer;
+	/*cursor: pointer;*/
 	display: inline-block;
 	height: 0.5em;
 	width: 0.5em;
 	margin-left: 0.5em;
 	background: black;
   outline: 0;
+}
+
+#jumpto a.unanswered {
+  pointer-events: none;
 }
 
 #jumpto a.shown {
