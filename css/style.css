@@ -324,7 +324,7 @@ a.vote:hover.vote-ueber:active, a.vote-ueber:active {
 }
 
 #jumpto a {
-	/*cursor: pointer;*/
+	cursor: default;
 	display: inline-block;
 	height: 0.5em;
 	width: 0.5em;
@@ -530,4 +530,31 @@ footer {
 }
 .w_skip {
 	background-position: -48px 0px
+}
+
+
+
+
+
+div.boxThese {
+  display: block;
+  position: relative;
+  /*padding: 10px;*/
+  display: flex;
+  height: 100px;
+}
+
+div.these {
+  margin-left: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.boxThese input {
+  clear: left;
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }

@@ -87,7 +87,7 @@ var studimat = function() {
    * creates a dialog which allows selecting questions that are especially
    * important to the user
   */
-  function updateWeightingTable() {
+/*  function updateWeightingTable() {
     $('#weighting table').innerHTML = "";
     for(var i = 0; i < self.data.questions.length; i++) {
       var tr = document.createElement('tr');
@@ -111,7 +111,39 @@ var studimat = function() {
       tr.appendChild(td2);
       $('#weighting table').appendChild(tr);
     }
+  }*/
+
+//TESTING OUT DIV CREATION
+  function updateWeightingDiv() {
+    $('#weighting div').innerHTML = "";
+    for(var i = 0; i < self.data.questions.length; i++) {
+      var boxThese = document.createElement('div');
+      var label = document.createElement('label');
+      var input = document.createElement('input');
+      boxThese.className = "boxThese";
+      input.id = 'checkbox_weighting' + i;
+      input.className = 'checkbox_weighting';
+      input.type = 'checkbox';
+      input.setAttribute('data-weighting', i);
+      label.setAttribute('for', input.id);
+      boxThese.appendChild(label);
+      label.appendChild(input);
+
+      var these = document.createElement('div');
+      var titel = document.createElement('h3');
+      var descriptions = document.createElement('p');
+      these.className = "these";
+      titel.innerText = self.data.questions[i].title;
+      descriptions.innerText = self.data.questions[i].description;
+      these.appendChild(titel);
+      these.appendChild(descriptions);
+
+      label.appendChild(these);
+
+      $('#weighting div').appendChild(boxThese);
+    }
   }
+
 
 
   /*
@@ -311,8 +343,8 @@ var studimat = function() {
       updateJumptoDots();
 
       // update weighting table
-      updateWeightingTable();
-
+      //updateWeightingTable();
+        updateWeightingDiv();
       if (self.currentContainer == 2) {
         showQuestion(self.currentQuestion);
       } else if (self.currentContainer == 4) {
@@ -404,7 +436,8 @@ var studimat = function() {
       updateJumptoDots();
 
       // update weighting table
-      updateWeightingTable();
+      //updateWeightingTable();
+      updateWeightingDiv();
     });
 
     showContainer(1);
