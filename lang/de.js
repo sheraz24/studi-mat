@@ -35,4 +35,4 @@ lang['de']['next'] = 'Weiter zur Auswertung';
 
 // third page
 lang['de']['result'] = '<p>Der Science-O-Mat ergab für dich folgendes Ergebnis. Unten findest du zu jeder Frage die Postionen mit Begründungen (klick auf die Frage) der einzelnen Listen. Dies ist keine Wahlempfehlung, sondern nur ein Informationsangebot über die aktuellen Positionen in der Hochschulpolitik an der TU Darmstadt.</p>';
-lang['de']['furtherinfos'] = '<h3>Weitere Informationen zur Wahl</h3><p>Viele weitere Infos zur diesjährigen Wahl und zur Hochschulpolitik an deiner Uni findest du in der Wahlzeitung und auf der Webseite deines AStA. <a href="https://www.asta.tu-darmstadt.de/asta/de/themen/hochschulwahlen">www.asta.tu-darmstadt.de/asta/de/themen/hochschulwahlen</a></p>';
+lang['de']['furtherinfos'] = '<h3>Weitere Informationen zur Wahl</h3>';

@@ -1,8 +1,8 @@
 {
   "parties": [
     {
-      "shortName": "CDU",
-      "longName": "Christlich Demokratische Union Deutschlands",
+      "shortName": "CDU/CSU",
+      "longName": "Christlich Demokratische Union Deutschlands/Christlich Soziale Union",
       "description": ""
     },
     {
@@ -33,7 +33,7 @@
 ],
 "questions": [
   {
-    "title": "These 1: Fahrzeug",
+    "title": "These 1: Dieselfahrzeuge in Innenstädten",
     "description": "Das Fahren von Fahrzeugen, die wissenschaftlich begründete Abgasgrenzwerte überschreiten, sollte in Innenstädten verboten werden.",
     "statements": {
       "CDU": ["0", ""],
@@ -45,7 +45,7 @@
     }
   },
   {
-    "title": "These 2: Pflanzen",
+    "title": "These 2: Gentechnische Pflanzen im Freilandversuch",
     "description": "Forscher sollten gentechnisch veränderte Pflanzen entwickeln und auch in Deutschland im Freilandversuch testen dürfen.",
     "statements": {
       "CDU": ["0", ""],
@@ -57,7 +57,7 @@
   }
   },
   {
-    "title": "These 3: Antibiotika",
+    "title": "These 3: Antibiotika in der Massentierhaltung",
     "description": "Um die Wirksamkeit von Antibiotika bei der Behandlung von Menschen zu erhalten, soll der Einsatz in der Massentierhaltung stark eingeschränkt und reglementiert werden.",
     "statements": {
       "CDU": ["0", ""],
@@ -69,7 +69,7 @@
     }
   },
   {
-    "title": "These 4: Frage",
+    "title": "These 4: Ausgaben für Forschung und Entwicklung",
     "description": "Die Ausgaben für Forschung und Entwicklung sollten bis 2025 in Deutschland einen höheren Anteil am Bruttoinlandsproduktes (BIP) erzielen als im Rest der Welt.",
     "statements": {
       "CDU": ["0", ""],
@@ -81,7 +81,7 @@
     }
   },
   {
-    "title": "These 5: Frage",
+    "title": "These 5: Tierversuche an Affen",
     "description": "Tierversuche an Affen sollten auch in der Grundlagenforschung weiterhin erlaubt sein, wenn es zu diesen Experimenten keine Alternative gibt.",
     "statements": {
       "CDU": ["0", ""],
@@ -93,7 +93,7 @@
     }
   },
   {
-    "title": "These 6: Frage",
+    "title": "These 6: Embryonenforschung",
     "description": "Die Forschung an menschlichen Embryonen soll in Deutschland erlaubt werden.",
     "statements": {
       "CDU": ["0", ""],
@@ -105,7 +105,7 @@
     }
   },
   {
-    "title": "These 7: Frage",
+    "title": "These 7: Anerkennung ausländische Bildungsabschlüsse",
     "description": "Außereuropäische Bildungsabschlüsse werden bei Vorlage entsprechender Unterlagen in Deutschland anerkannt.",
     "statements": {
       "CDU": ["0", ""],
@@ -117,7 +117,7 @@
     }
   },
   {
-    "title": "These 8: Frage",
+    "title": "These 8: Zivilschutzklausel an Universitäten",
     "description": "An allen deutschen Universitäten soll es Zivilschutzklauseln geben, die eine Forschung zu eindeutig militärischen Zwecken ausschließt.",
     "statements": {
       "CDU": ["0", ""],
@@ -129,7 +129,7 @@
     }
   },
   {
-    "title": "These 9: Frage",
+    "title": "These 9: Zugang zu Forschungsergebnissen",
     "description": "Die Ergebnisse staatlich finanzierter Forschung sollen als Publikationen kostenlos öffentlich zugänglich sein.",
     "statements": {
       "CDU": ["0", ""],
@@ -141,7 +141,7 @@
     }
   },
 {
-    "title": "These 10: Frage",
+    "title": "These 10: Künstliche Intelligenz",
     "description": "Die Forschung im Bereich künstlicher Intelligenz benötigt verbindliche ethische Regeln in der Gesetzgebung.",
     "statements": {
       "CDU": ["0", ""],
@@ -153,7 +153,7 @@
     }
   },
   {
-    "title": "These 11: Frage",
+    "title": "These 11: Masernimpfung",
     "description": "Eine verpflichtende Masernimpfung für Kinder und Erwachsene sollte eingeführt werden.",
     "statements": {
       "CDU": ["0", ""],
@@ -165,7 +165,7 @@
     }
   },
   {
-    "title": "These 12: Frage",
+    "title": "These 12: Homöopathie",
     "description": "Die Erstattung von homöopathischen Behandlungen durch die gesetzlichen Krankenkassen soll untersagt werden.",
     "statements": {
       "CDU": ["0", ""],
@@ -177,7 +177,7 @@
     }
   },
   {
-    "title": "These 13: Frage",
+    "title": "These 13: Werbung mit Wissenschaft",
     "description": "Die Verwendung von Werbeaussagen wie \"wissenschaftlich überprüft\" oder \"von Wissenschaftlern empfohlen\" sollten untersagt werden, wenn sie nicht nachweislich auf anerkannt wissenschaftlicher Evidenz beruhen.",
     "statements": {
       "CDU": ["0", ""],
@@ -189,7 +189,7 @@
     }
   },
   {
-    "title": "These 14: Frage",
+    "title": "These 14: Erbgut-Untersuchung",
     "description": "Die Untersuchung des eigenen Erbgutes auf mögliche Erkrankungen, die an die Nachkommen vererbt werden können, sollte für jeden frei verfügbar sein.",
     "statements": {
       "CDU": ["0", ""],
@@ -201,7 +201,7 @@
     }
   },
   {
-    "title": "These 15: Frage",
+    "title": "These 15: Erneuerbare Energie",
     "description": "Die Erforschung erneuerbarer Energien, deren Grundlasttauglichkeit und die Verfügbarkeit für die Bevölkerung soll gefördert werden.",
     "statements": {
       "CDU": ["0", ""],
