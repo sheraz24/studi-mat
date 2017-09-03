@@ -267,6 +267,9 @@ label, checkbox {
 	background-color: #cecece !important;
 }
 
+#showContainer2 {
+  clear:none;
+}
 
 #questioncontainer {
   display: none;
@@ -539,20 +542,15 @@ footer {
 div.boxThese {
   display: block;
   position: relative;
-  /*padding: 10px;*/
-  display: flex;
-  height: 100px;
+  padding: 10px;
+  height: auto;
 }
 
 div.these {
   margin-left: 30px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .boxThese input {
-  clear: left;
   float: left;
   position: absolute;
   top: 50%;

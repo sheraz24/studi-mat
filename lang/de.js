@@ -34,5 +34,5 @@ lang['de']['gtxt'] ='<p>Von Ihnen markierte Thesen werden bei der Auswertung dop
 lang['de']['next'] = 'Weiter zur Auswertung';
 
 // third page
-lang['de']['result'] = '<p>Der Science-O-Mat ergab für dich folgendes Ergebnis. Unten findest du zu jeder Frage die Postionen mit Begründungen (klick auf die Frage) der einzelnen Listen. Dies ist keine Wahlempfehlung, sondern nur ein Informationsangebot über die aktuellen Positionen in der Hochschulpolitik an der TU Darmstadt.</p>';
+lang['de']['result'] = '<p>Der Science-O-Mat ergab für Sie untenstehendes Ergebnis. Dies ist keine Wahlempfehlung, sondern ein themenspezifisches Informationsangebot.<br>Mit einem Klick auf die einzelnen Fragen können Sie sich die Positionen der Parteien anzeigen lassen.</p>';
 lang['de']['furtherinfos'] = '<h3>Weitere Informationen zur Wahl</h3>';
