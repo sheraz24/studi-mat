@@ -231,23 +231,29 @@ label, checkbox {
 }
 
 /* Buttons */
+
+
 #startmatowahl, .button {
-	display: inline-block;
+	display: block;
 	padding: 8px 12px;
-	margin: 0 0 8px 0;
+	/*margin: 0 0 8px 0;*/
 	color: #fff;
 	cursor: pointer;
 	background: #55BD00;
 	transition: background 0.05s linear;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  text-align: center;
 }
 
-.button {
-	float: right;
-}
 
-#startmatowahl {
+/*#startmatowahl {
 	float: left;
 }
+.button {
+	float: right;
+}*/
 
 #startmatowahl:hover, .button:hover {
 	background: #50B200 ;
@@ -256,6 +262,7 @@ label, checkbox {
 .button.back {
 	clear: both;
 	float: left;
+  margin-top: 0.5em;
 	background-color: #F0F0F0 !important;
 	color: #000;
 	transition: background 0.07s linear;
@@ -373,13 +380,14 @@ a.vote:hover.vote-ueber:active, a.vote-ueber:active {
 }
 
 footer {
-	text-align: right;
+	text-align: left;
 	clear: both;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 10em;
 
 }
 
 .social-media {
-  float: right;
   text-align: left;
 }
 
@@ -413,9 +421,11 @@ footer {
 }
 
 #extras {
-	float: right;
 	clear: right;
 	margin-top: 4px;
+}
+#extras a{
+  color: #d0d0d0;
 }
 
 /* resultpage*/
@@ -535,10 +545,6 @@ footer {
 	background-position: -48px 0px
 }
 
-
-
-
-
 div.boxThese {
   display: block;
   position: relative;
@@ -555,4 +561,8 @@ div.these {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+.these h3{
+  font-weight: 800;
+  font-size: 16px;
 }
